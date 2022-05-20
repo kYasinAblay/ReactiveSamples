@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IObservableT_type", "IObser
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Subjects", "Subjects", "{6BCF3461-ED1C-465F-AF1D-0D577B1172A3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FundamentalSequenceOperators", "FundamentalSequenceOperators", "{81A9437F-C07C-43EF-98F5-42951E7FFC0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdvancedSequenceOperator", "AdvancedSequenceOperator", "{999AA65F-53D9-4704-8DD9-862871D9BDA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
