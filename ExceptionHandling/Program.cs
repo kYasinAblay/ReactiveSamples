@@ -94,5 +94,7 @@ namespace ExceptionHandling //RxDemo.AdvancedSequenceOperators.ExceptionHandling
                 return Disposable.Empty;
             });
         }
+
+        static void Main(string[] args) { }
     }
 }
