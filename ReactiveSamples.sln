@@ -3,21 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.ExtensionMethods", "Shared.ExtensionMethods\Shared.ExtensionMethods.csproj", "{A5935035-9A49-43EA-A84B-33D704EB14B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.ExtensionMethods", "Shared.ExtensionMethods\Shared.ExtensionMethods.csproj", "{A5935035-9A49-43EA-A84B-33D704EB14B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KeyInterfaces", "KeyInterfaces", "{B82AA01B-216E-42B4-82F8-D971C6E18EE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDesignPatternV", "ObserverDesignPatternV\ObserverDesignPatternV.csproj", "{23CF72EA-4969-482C-B32F-082F4C744E03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverDesignPatternV", "ObserverDesignPatternV\ObserverDesignPatternV.csproj", "{23CF72EA-4969-482C-B32F-082F4C744E03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IObserverT_type", "IObserverT_type\IObserverT_type.csproj", "{E3D58511-4938-4D97-969F-E49FE41E8893}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IObserverT_type", "IObserverT_type\IObserverT_type.csproj", "{E3D58511-4938-4D97-969F-E49FE41E8893}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IObservableT_type", "IObservableT_type\IObservableT_type.csproj", "{EE3BA2DB-DE20-47D3-B7EC-3B3E9E6E7272}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IObservableT_type", "IObservableT_type\IObservableT_type.csproj", "{EE3BA2DB-DE20-47D3-B7EC-3B3E9E6E7272}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Subjects", "Subjects", "{6BCF3461-ED1C-465F-AF1D-0D577B1172A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FundamentalSequenceOperators", "FundamentalSequenceOperators", "{81A9437F-C07C-43EF-98F5-42951E7FFC0A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdvancedSequenceOperator", "AdvancedSequenceOperator", "{999AA65F-53D9-4704-8DD9-862871D9BDA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubjectGenericT", "SubjectGenericT\SubjectGenericT.csproj", "{67EEBBFC-394B-4145-AB11-5CB96BFD9359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unsubscribing", "Unsubscribing\Unsubscribing.csproj", "{6296F956-1DC5-4CDC-B16E-B5124273B9B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyAndBroadcast", "ProxyAndBroadcast\ProxyAndBroadcast.csproj", "{5E054A88-3A44-46AE-9D73-6837728F93BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaySubjectGenericT", "ReplaySubjectGenericT\ReplaySubjectGenericT.csproj", "{537FF130-0AFC-4B9D-B252-3B3A5FE0F028}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehaviorSubjectGenericT", "BehaviorSubjectGenericT\BehaviorSubjectGenericT.csproj", "{6ED30BC3-AC09-4388-8DC9-C93142263D24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncSubjectGenericT", "AsyncSubjectGenericT\AsyncSubjectGenericT.csproj", "{32CF9797-51EB-444C-8AD0-9199436E74FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementingIObservable", "ImplementingIObservable\ImplementingIObservable.csproj", "{354C9181-1D20-4F85-9CCF-1571DBB6D97F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +55,34 @@ Global
 		{EE3BA2DB-DE20-47D3-B7EC-3B3E9E6E7272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE3BA2DB-DE20-47D3-B7EC-3B3E9E6E7272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE3BA2DB-DE20-47D3-B7EC-3B3E9E6E7272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67EEBBFC-394B-4145-AB11-5CB96BFD9359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EEBBFC-394B-4145-AB11-5CB96BFD9359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EEBBFC-394B-4145-AB11-5CB96BFD9359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EEBBFC-394B-4145-AB11-5CB96BFD9359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6296F956-1DC5-4CDC-B16E-B5124273B9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6296F956-1DC5-4CDC-B16E-B5124273B9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6296F956-1DC5-4CDC-B16E-B5124273B9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6296F956-1DC5-4CDC-B16E-B5124273B9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E054A88-3A44-46AE-9D73-6837728F93BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E054A88-3A44-46AE-9D73-6837728F93BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E054A88-3A44-46AE-9D73-6837728F93BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E054A88-3A44-46AE-9D73-6837728F93BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{537FF130-0AFC-4B9D-B252-3B3A5FE0F028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537FF130-0AFC-4B9D-B252-3B3A5FE0F028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537FF130-0AFC-4B9D-B252-3B3A5FE0F028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537FF130-0AFC-4B9D-B252-3B3A5FE0F028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED30BC3-AC09-4388-8DC9-C93142263D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED30BC3-AC09-4388-8DC9-C93142263D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED30BC3-AC09-4388-8DC9-C93142263D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED30BC3-AC09-4388-8DC9-C93142263D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32CF9797-51EB-444C-8AD0-9199436E74FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CF9797-51EB-444C-8AD0-9199436E74FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CF9797-51EB-444C-8AD0-9199436E74FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CF9797-51EB-444C-8AD0-9199436E74FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{354C9181-1D20-4F85-9CCF-1571DBB6D97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354C9181-1D20-4F85-9CCF-1571DBB6D97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354C9181-1D20-4F85-9CCF-1571DBB6D97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354C9181-1D20-4F85-9CCF-1571DBB6D97F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +91,13 @@ Global
 		{23CF72EA-4969-482C-B32F-082F4C744E03} = {B82AA01B-216E-42B4-82F8-D971C6E18EE2}
 		{E3D58511-4938-4D97-969F-E49FE41E8893} = {B82AA01B-216E-42B4-82F8-D971C6E18EE2}
 		{EE3BA2DB-DE20-47D3-B7EC-3B3E9E6E7272} = {B82AA01B-216E-42B4-82F8-D971C6E18EE2}
+		{67EEBBFC-394B-4145-AB11-5CB96BFD9359} = {6BCF3461-ED1C-465F-AF1D-0D577B1172A3}
+		{6296F956-1DC5-4CDC-B16E-B5124273B9B4} = {6BCF3461-ED1C-465F-AF1D-0D577B1172A3}
+		{5E054A88-3A44-46AE-9D73-6837728F93BF} = {6BCF3461-ED1C-465F-AF1D-0D577B1172A3}
+		{537FF130-0AFC-4B9D-B252-3B3A5FE0F028} = {6BCF3461-ED1C-465F-AF1D-0D577B1172A3}
+		{6ED30BC3-AC09-4388-8DC9-C93142263D24} = {6BCF3461-ED1C-465F-AF1D-0D577B1172A3}
+		{32CF9797-51EB-444C-8AD0-9199436E74FC} = {6BCF3461-ED1C-465F-AF1D-0D577B1172A3}
+		{354C9181-1D20-4F85-9CCF-1571DBB6D97F} = {6BCF3461-ED1C-465F-AF1D-0D577B1172A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9071F22-2CBE-4A24-9243-CFC3249E2357}
