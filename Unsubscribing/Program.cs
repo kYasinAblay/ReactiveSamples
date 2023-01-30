@@ -22,6 +22,11 @@ namespace RxDemos.LifetimeMgmt.UnSubscribing   //Unsubscribing
 
             //sensor.OnNext(4);
             //sensor.OnNext(5);
+
+            static void Main(string[] args)
+            {
+                throw new NotImplementedException();
+            }
         }
     }
 }

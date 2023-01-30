@@ -37,8 +37,12 @@ namespace RxDemos.SubjectOfT  //SubjectGenericT
 
             Demo demo = new Demo();
         }
+        static void Main(string[] args)
+        { 
+            throw new NotImplementedException();
+        }
 
-        public void OnNext(float value)
+            public void OnNext(float value)
         {
             Console.WriteLine($"Market sent us {value}");
         }
